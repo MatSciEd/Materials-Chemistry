@@ -1,0 +1,28 @@
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jt-jahn-teller"
+version = "0.1.0"
+description = "Jahn–Teller interactive tool for Materials-Chemistry notebooks (packaged)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "MatSciEd"}]
+dependencies = [
+  "numpy>=1.23",
+  "matplotlib>=3.7",
+  "ipywidgets>=8.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/MatSciEd/Materials-Chemistry"
+Issues = "https://github.com/MatSciEd/Materials-Chemistry/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
