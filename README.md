@@ -4,7 +4,7 @@ Python Tools for Teaching Chemistry Concepts and Skills
 
 ## Overview
 
-This repository is a collection of Jupyter notebooks designed to teach difficult chemistry concepts and skills. The notebooks are organized by topic and provide interactive examples, visualizations, and exercises to help students understand complex materials chemistry topics.
+This repository is a collection of Jupyter notebooks designed to teach chemistry concepts and skills. The notebooks are organized by topic and provide interactive examples, visualizations, and exercises to help students understand complex materials chemistry topics.
 
 ## Repository Structure
 
@@ -17,10 +17,6 @@ Materials-Chemistry/
 │   ├── kinetics/
 │   ├── crystallography/
 │   └── spectroscopy/
-├── data/
-│   └── example datasets for notebooks
-├── images/
-│   └── figures and diagrams
 ├── requirements.txt
 └── README.md
 ```
