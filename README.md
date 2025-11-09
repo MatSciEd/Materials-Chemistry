@@ -9,7 +9,8 @@ This repository is intended to host a collection of Jupyter notebooks designed t
 ## Contents
 
 - notebooks/  
-  - Jahn–Teller.ipynb — analysis of Jahn–Teller distortions and their effects on electronic structure.  
+  - Jahn–Teller.ipynb — analysis of Jahn–Teller distortions and their effects on electronic structure.
+    [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/MatSciEd/Materials-Chemistry/main?labpath=notebooks/Jahn-Teller_v2.0.ipynb)
     The Jahn–Teller notebook was created by Clotilde Cucinotta and Richard Hennig.
 - scripts/ — helper scripts for data processing and plotting
 - data/ — input data and example datasets
